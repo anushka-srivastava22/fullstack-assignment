@@ -15,15 +15,19 @@ Ensure you have the following installed on your system:
 ### Frontend (ReactJS)
 
 1. Navigate to the `frontend` directory:
+   
 cd frontend
 
-2. Install dependencies:
+cd client
+
+
+3. Install dependencies:
 npm install
 
-3. Start the React development server:
+5. Start the React development server:
 npm start
 
-4. Access the frontend at `http://localhost:3000` in your web browser.
+6. Access the frontend at `http://localhost:3000` in your web browser.
 
 ### Backend (Python with FastAPI)
 
@@ -32,20 +36,22 @@ cd backend
 
 arduino
 
-2. Create a virtual environment (optional but recommended):
+2. Create a virtual environment in git bash terminal (optional but recommended):
+   
 python -m venv venv
+
 source venv/bin/activate # For Linux/Mac, use venv\Scripts\activate for Windows
 
 
-3. Install dependencies:
+4. Install dependencies:
 pip install fastapi uvicorn databases[postgresql]
 
 
-4. Run the backend server:
+5. Run the backend server:
 uvicorn main:app --reload
 
 
-5. The backend will be accessible at `http://localhost:8000`
+6. The backend will be accessible at `http://localhost:8000`
 
 ### PostgreSQL Database
 
