@@ -1,3 +1,4 @@
+
 from sqlalchemy import Column, Integer, String, JSON
 from sqlalchemy.ext.declarative import declarative_base
 
